@@ -2,7 +2,7 @@ node
 {
   stage("build")
   {
-    echo "this is build"
+    sh 'mvn clean install'
 
   }
   stage("test")
