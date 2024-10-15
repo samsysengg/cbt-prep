@@ -2,7 +2,7 @@ node
 {
   stage(build)
   {
-    sh 'echo "hello from build"'
+    echo "hello from build"
 
   }
 
