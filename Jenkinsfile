@@ -2,7 +2,7 @@ node
 {
   stage("build")
   {
-    sh 'mvn clean install'
+    sh 'maven clean install'
 
   }
   stage("test")
