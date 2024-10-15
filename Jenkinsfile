@@ -2,8 +2,18 @@ node
 {
   stage("build")
   {
-    echo "hello from build"
+    echo "this is build"
+
+  }
+  stage("test")
+  {
+    echo "this is test"
 
   }
 
+    stage("deploy")
+  {
+    echo "this is deploy"
+
+  }
 }
