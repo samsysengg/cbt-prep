@@ -1,6 +1,6 @@
 node
 {
-  stage(build)
+  stage("build")
   {
     echo "hello from build"
 
